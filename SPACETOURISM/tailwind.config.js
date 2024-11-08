@@ -11,7 +11,7 @@ export default {
 			fontFamily: {
 				Bellefair: ['Bellefair', 'serif'],
 				balowCondensed: ['Barlow Condensed', 'sans-serif'],
-				balowRegular: ['Barlow', 'sans-serif'],
+				balowRegular: ['BalowRegular', 'sans-serif'],
 			},
 			outlineWidth: {
 				88: '88px',
@@ -21,6 +21,10 @@ export default {
 				bgDesktopHome: 'url("/assets/home/background-home-desktop.jpg")',
 				bgTabletHome: 'url("/assets/home/background-home-tablet.jpg")',
 				bgMobileHome: 'url("/assets/home/background-home-mobile.jpg")',
+			},
+			lineHeight: {
+				'extra-loose': '2.5',
+				custom: '2.2',
 			},
 		},
 	},
