@@ -38,7 +38,7 @@ function Navbar() {
 						<span className="font-bold pr-3">01</span>DESTINATION
 					</NavLink>
 					<NavLink
-						to="/destination"
+						to="/crew"
 						className={({ isActive }) =>
 							isActive
 								? 'border-b-[3px] pb-6 border-lightBlue'
@@ -48,7 +48,7 @@ function Navbar() {
 						<span className="font-bold pr-3">02</span>CREW
 					</NavLink>
 					<NavLink
-						to="/destination"
+						to="/crew"
 						className={({ isActive }) =>
 							isActive
 								? 'border-b-[3px] pb-6 border-lightBlue'
@@ -96,7 +96,7 @@ function Navbar() {
 								<span className="font-bold pr-3 pl-5">00</span>HOME
 							</NavLink>
 							<NavLink
-								to="/crew"
+								to="/destination"
 								className={({ isActive }) =>
 									isActive
 										? 'border-r-[6px] pr-32 border-lightBlue'

@@ -21,6 +21,12 @@ export default {
 				bgDesktopHome: 'url("/assets/home/background-home-desktop.jpg")',
 				bgTabletHome: 'url("/assets/home/background-home-tablet.jpg")',
 				bgMobileHome: 'url("/assets/home/background-home-mobile.jpg")',
+				bgDesktopDestination:
+					'url("/assets/destination/background-destination-desktop.jpg")',
+				bgTabletDestination:
+					'url("/assets/destination/background-destination-tablet.jpg")',
+				bgMobileDestination:
+					'url("/assets/destination/background-destination-mobile.jpg")',
 			},
 			lineHeight: {
 				'extra-loose': '2.5',
