@@ -6,7 +6,6 @@ import Destination from './pages/Destination';
 import Error from './pages/Error';
 import Crew from './pages/Crew';
 import Technology from './pages/Technology';
-import Sharedlayout from './pages/Sharedlayout';
 
 function App() {
 	const [loading, setLoading] = useState(true);
@@ -24,13 +23,11 @@ function App() {
 	) : (
 		<BrowserRouter>
 			<Routes>
-				<Route path="/" element={<Sharedlayout />}>
-					<Route index element={<Home />} />
-					<Route path="destination" element={<Destination />} />
-					<Route path="crew" element={<Crew />} />
-					<Route path="technology" element={<Technology />} />
-					<Route path="*" element={<Error />} /> {/* Catch-all route for 404 */}
-				</Route>
+				<Route index element={<Home />} />
+				<Route path="destination" element={<Destination />} />
+				<Route path="crew" element={<Crew />} />
+				<Route path="technology" element={<Technology />} />
+				<Route path="*" element={<Error />} /> {/* Catch-all route for 404 */}
 			</Routes>
 		</BrowserRouter>
 	);
