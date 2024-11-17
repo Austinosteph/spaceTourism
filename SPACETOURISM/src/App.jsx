@@ -1,7 +1,6 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import { useState, useEffect } from 'react';
-import loader from '/assets/favicon-32x32.png';
+import loader from '/assets/favicon-32x32.png'; // Make sure this path is correct
 import Home from './pages/Home';
 import Destination from './pages/Destination';
 import Error from './pages/Error';
@@ -11,24 +10,26 @@ import Sharedlayout from './pages/sharedlayout';
 
 function App() {
 	const [loading, setLoading] = useState(true);
+
 	useEffect(() => {
 		setTimeout(() => {
 			setLoading(false);
-		}, 2800);
+		}, 2800); // Show the loader for 2.8 seconds
 	}, []);
+
 	return loading ? (
 		<div className="flex h-screen items-center justify-center">
-			<img src={loader} className="animate-spin" />
+			<img src={loader} className="animate-spin" alt="Loading..." />
 		</div>
 	) : (
 		<BrowserRouter>
 			<Routes>
 				<Route path="/" element={<Sharedlayout />}>
 					<Route index element={<Home />} />
-					<Route path="destination" element={<Destination />}></Route>
-					<Route path="crew" element={<Crew />}></Route>
-					<Route path="technology" element={<Technology />}></Route>
-					<Route path="*" element={<Error />} />
+					<Route path="destination" element={<Destination />} />
+					<Route path="crew" element={<Crew />} />
+					<Route path="technology" element={<Technology />} />
+					<Route path="*" element={<Error />} /> {/* Catch-all route for 404 */}
 				</Route>
 			</Routes>
 		</BrowserRouter>
