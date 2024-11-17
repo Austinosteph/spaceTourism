@@ -6,7 +6,7 @@ import Destination from './pages/Destination';
 import Error from './pages/Error';
 import Crew from './pages/Crew';
 import Technology from './pages/Technology';
-import Sharedlayout from './pages/sharedlayout';
+import Sharedlayout from './pages/Sharedlayout';
 
 function App() {
 	const [loading, setLoading] = useState(true);
