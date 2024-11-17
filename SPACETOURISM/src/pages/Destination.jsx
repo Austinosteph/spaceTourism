@@ -1,4 +1,4 @@
-import { useReducer, useState } from 'react';
+import { useReducer } from 'react';
 import imagemoon from '/assets/destination/image-moon.png';
 import imagemars from '/assets/destination/image-mars.png';
 import imageeuropa from '/assets/destination/image-europa.png';
@@ -62,7 +62,7 @@ const Destination = () => {
 		<div className="lg:bg-bgDesktopDestination md:bg-bgTabletDestination bg-bgMobileDestination min-h-screen bg-cover ">
 			<div className="lg:pt-28 md:pt-36 pt-28 lg:space-y-20 md:space-y-10 space-y-10">
 				<div className="flex lg:pl-32 md:pl-10 justify-center	 md:justify-start">
-					<p className="font-balowCondensed text-CustomWhite ">
+					<p className="font-balowCondensed text-CustomWhite lg:text-xl md:text-lg text-base">
 						<span className="pr-3 opacity-45 font-bold">01</span>PICK YOUR
 						DESTINATION
 					</p>

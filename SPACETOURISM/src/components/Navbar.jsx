@@ -48,7 +48,7 @@ function Navbar() {
 						<span className="font-bold pr-3">02</span>CREW
 					</NavLink>
 					<NavLink
-						to="/crew"
+						to="/technology"
 						className={({ isActive }) =>
 							isActive
 								? 'border-b-[3px] pb-6 border-lightBlue'

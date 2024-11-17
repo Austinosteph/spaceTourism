@@ -14,8 +14,7 @@ export default {
 				balowRegular: ['BalowRegular', 'sans-serif'],
 			},
 			outlineWidth: {
-				88: '88px',
-				176: '176',
+				55: '55px',
 			},
 			backgroundImage: {
 				bgDesktopHome: 'url("/assets/home/background-home-desktop.jpg")',
@@ -27,6 +26,15 @@ export default {
 					'url("/assets/destination/background-destination-tablet.jpg")',
 				bgMobileDestination:
 					'url("/assets/destination/background-destination-mobile.jpg")',
+				bgDesktopCrew: 'url("/assets/crew/background-crew-desktop.jpg")',
+				bgTabletCrew: 'url("/assets/crew/background-crew-tablet.jpg")',
+				bgMobileCrew: 'url("/assets/crew/background-crew-mobile.jpg")',
+				bgDesktopTechnology:
+					'url("/assets/technology/background-technology-desktop.jpg")',
+				bgTabletTechnology:
+					'url("/assets/technology/background-technology-tablet.jpg")',
+				bgMobileTechnology:
+					'url("/assets/technology/background-technology-mobile.jpg")',
 			},
 			lineHeight: {
 				'extra-loose': '2.5',
