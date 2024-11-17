@@ -3,9 +3,9 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 import loader from '/assets/favicon-32x32.png';
 import Home from './pages/Home';
-import Sharedlayout from './pages/sharedlayout';
+// import Sharedlayout from 'src/pages/Sharedlayout.jsx';
 import Destination from './pages/Destination';
-import Error from './Error';
+import Error from './pages/Error';
 import Crew from './pages/Crew';
 import Technology from './pages/Technology';
 
@@ -23,13 +23,13 @@ function App() {
 	) : (
 		<BrowserRouter>
 			<Routes>
-				<Route path="/" element={<Sharedlayout />}>
-					<Route index element={<Home />} />
-					<Route path="destination" element={<Destination />}></Route>
-					<Route path="crew" element={<Crew />}></Route>
-					<Route path="technology" element={<Technology />}></Route>
-					<Route path="*" element={<Error />} />
-				</Route>
+				{/* <Route path="/" element={<Sharedlayout />}> */}
+				<Route index element={<Home />} />
+				<Route path="destination" element={<Destination />}></Route>
+				<Route path="crew" element={<Crew />}></Route>
+				<Route path="technology" element={<Technology />}></Route>
+				<Route path="*" element={<Error />} />
+				{/* </Route> */}
 			</Routes>
 		</BrowserRouter>
 	);
