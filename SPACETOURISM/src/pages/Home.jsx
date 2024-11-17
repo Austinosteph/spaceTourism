@@ -21,7 +21,6 @@ const Home = () => (
 				<img
 					src={Explore}
 					className="outline-none hover:outline hover:outline-55 hover:outline-CustomWhite/20 hover:outline-offset-0 rounded-full"
-					style={{ '--tw-outline-opacity': 0.5 }}
 				/>
 			</div>
 		</div>
