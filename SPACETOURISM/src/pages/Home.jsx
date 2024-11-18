@@ -4,7 +4,7 @@ const Home = () => (
 	<div className="lg:bg-bgDesktopHome md:bg-bgTabletHome bg-bgMobileHome bg-cover min-h-screen">
 		<div className="lg:flex-row flex-col flex  text-CustomWhite lg:pt-60 md:pt-52 pt-36 lg:justify-center lg:space-x-20  items-center lg:space-y-0 md:space-y-14 space-y-20">
 			<div className="lg:w-[520px] lg:space-y-7 md:space-y-24 space-y-10 flex-col align-middle ">
-				<p className="font-balowCondensed md:text-xl text-lg text-lightBlue ml-10 md:ml-24 lg:ml-auto">
+				<p className="font-balowCondensed md:text-xl text-base text-lightBlue ml-10 md:ml-24 lg:ml-auto">
 					SO, YOU WANT TO TRAVEL TO
 				</p>
 				<p className="font-Bellefair text-6xl md:text-8xl text-CustomWhite ml-16 md:ml-24 lg:ml-auto">
