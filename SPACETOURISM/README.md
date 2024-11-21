@@ -1,8 +1,1 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Building out this multi-page Space Tourism website was a significant front-end challenge. The goal was to take a design and translate it into a fully functional website using React and Tailwind CSS—all while staying as close to the original design as possible. From creating reusable components to fine-tuning responsive layouts, it required a lot of attention to detail and problem-solving to ensure everything looked great and worked seamlessly across devices.
